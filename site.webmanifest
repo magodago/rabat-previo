@@ -1,25 +1,30 @@
 {
- "name": "RABAT AI Post",
+ "id": "https://magodago.github.io/rabat-previo/",
+ "name": "Rabat AI Post",
  "short_name": "AI Post",
- "start_url": "./",
- "scope": "./",
+ "description": "Revision de contenido antes de publicar",
+ "start_url": "https://magodago.github.io/rabat-previo/",
+ "scope": "https://magodago.github.io/rabat-previo/",
  "display": "standalone",
  "orientation": "portrait",
  "background_color": "#000000",
  "theme_color": "#000000",
+ "lang": "es",
  "icons": [
   {
-   "src": "assets/icons/v3/icon-192.png",
+   "src": "https://magodago.github.io/rabat-previo/assets/icons/v3/icon-192.png",
    "sizes": "192x192",
-   "type": "image/png"
+   "type": "image/png",
+   "purpose": "any"
   },
   {
-   "src": "assets/icons/v3/icon-512.png",
+   "src": "https://magodago.github.io/rabat-previo/assets/icons/v3/icon-512.png",
    "sizes": "512x512",
-   "type": "image/png"
+   "type": "image/png",
+   "purpose": "any"
   },
   {
-   "src": "assets/icons/v3/maskable-512.png",
+   "src": "https://magodago.github.io/rabat-previo/assets/icons/v3/maskable-512.png",
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
