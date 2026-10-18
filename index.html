@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>RABAT PREVIO · Revisión antes de publicar</title>
+<meta name="description" content="Revisión previa de textos y fotos para artistas de Rabat Music Group.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="shell">
+  <header class="bar">
+    <a class="brand" href="https://magodago.github.io/rabat-hub/"><img src="assets/logo-rabat-azul.svg" alt="Rabat"></a>
+    <div class="meta"><span>PREVIO</span><span>Revisión antes de publicar</span></div>
+  </header>
+
+  <section class="intro">
+    <p class="kick">Control de contenido</p>
+    <h1>Antes de publicar,<br><em>pásalo por aquí</em></h1>
+    <p class="sub">Pega el texto que vas a subir o la foto que vas a colgar. Te decimos si hay algo que te va a restar, por qué, y cómo dejarlo bien. Nada sale de tu teléfono: el análisis se hace en el navegador.</p>
+  </section>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-tab="texto" role="tab">Texto</button>
+    <button class="tab" data-tab="foto" role="tab">Foto</button>
+  </div>
+
+  <section id="p-texto" class="panel on">
+    <div class="field">
+      <label for="txt">Texto que vas a publicar</label>
+      <textarea id="txt" rows="7" placeholder="Pega aquí el pie de foto, el copy del post o el mensaje de la historia…"></textarea>
+      <div class="row">
+        <select id="red">
+          <option value="instagram">Instagram</option>
+          <option value="tiktok">TikTok</option>
+          <option value="x">X</option>
+          <option value="facebook">Facebook</option>
+          <option value="youtube">YouTube</option>
+        </select>
+        <span class="count"><b id="chars">0</b> caracteres</span>
+      </div>
+    </div>
+    <button id="go-texto" class="cta">Analizar texto</button>
+  </section>
+  <section id="p-foto" class="panel">
+    <div class="drop" id="drop">
+      <input type="file" id="file" accept="image/*" hidden>
+      <p class="d1">Arrastra la foto o <b>elígela</b></p>
+      <p class="d2">JPG, PNG o WEBP · se analiza en tu dispositivo</p>
+      <img id="prev" alt="">
+    </div>
+    <div class="check">
+      <p class="lbl">Marca lo que aparezca en la foto</p>
+      <label><input type="checkbox" value="menores"> Salen menores de edad</label>
+      <label><input type="checkbox" value="permiso"> Sale alguien sin permiso</label>
+      <label><input type="checkbox" value="marca"> Se ve una marca o logo</label>
+      <label><input type="checkbox" value="documento"> Hay documentos, pantallas o matrículas</label>
+      <label><input type="checkbox" value="casa"> Se identifica tu casa o tu coche</label>
+    </div>
+    <button id="go-foto" class="cta">Analizar foto</button>
+  </section>
+
+  <section id="out" class="out"></section>
+
+  <footer class="foot">
+    <span>Rabat Music Group · Previo</span>
+    <a href="https://magodago.github.io/rabat-hub/">Volver al hub</a>
+  </footer>
+</div>
+<script src="zoom-off.js"></script>
+<script src="motor-texto.js"></script>
+<script src="motor-foto.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
