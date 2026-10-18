@@ -107,3 +107,4 @@ select{appearance:none;background:#111119;border:1px solid var(--line);color:var
 .ia-sw input{accent-color:#1F4FE8;width:15px;height:15px}
 .ia-sw em{font-style:normal;color:var(--mut);letter-spacing:.06em;text-transform:none;font-size:11px}
 .resumen{margin:12px 0 0;font-size:14px;line-height:1.55;color:rgba(242,240,234,.9)}
+.priv{font-size:9.5px;color:#6E6E78;letter-spacing:.04em;max-width:52ch}
